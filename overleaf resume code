@@ -1,0 +1,337 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+% Tight list spacing
+
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape MONU KUMAR} \\ \vspace{1pt}
+     \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-9472411654} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{monu270202@gmail.com}} ~
+    \href{https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/monukumarjha2020}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://www.hackerrank.com/profile/monu270202}{\raisebox{-0.2\height}\faHackerrank\ \underline{Hackerrank}} ~
+    \href{https://leetcode.com/u/zA4oc4hZYs/}{\raisebox{-0.2\height}\faPoll\ \underline{Leetcode}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------PROGRAMMING SKILLS-----------
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\vspace{-4pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item[] {\small
+  \textbf{Languages \& Tools:} Java (17–21), SQL, Python(basic), JavaScript (basic), IntelliJ, Eclipse, VS Code, Git, GitHub, GitLab, Postman \\[-2pt]
+  \textbf{Frameworks:} Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Hibernate, Lombok \\[-2pt]
+  \textbf{AI Integration:} OpenAI API (ChatGPT, Embeddings), LangChain4j, Prompt Engineering, JSON Parsing \\[-2pt]
+  \textbf{API Development:} RESTful APIs, Swagger / OpenAPI, Jackson \\[-2pt]
+  \textbf{Databases:} MySQL, MongoDB \\[-2pt]
+  \textbf{Testing:} JUnit, Mockito, Testcontainers \\[-2pt]
+  \textbf{DevOps \& Cloud:} Docker, GitHub Actions (CI/CD), Maven, Gradle, AWS (EC2, S3, RDS) \\[-2pt]
+  \textbf{Software Engineering Concepts:} OOP, Design Patterns (Singleton, Factory, Builder), Microservices, MVC Architecture, DTO \& Entity Mapping, Exception Handling, JWT \& OAuth2, Unit \& Integration Testing, Agile / Scrum \\[-2pt]
+  
+}
+\end{itemize}
+\vspace{-8pt}
+
+
+
+
+%-----------PROJECTS-----------
+
+
+\section{PROJECTS}
+\vspace{-8pt}  % Reduce space after section heading
+
+\resumeSubHeadingListStart
+
+% --- Project 1 ---
+\resumeProjectHeading
+  {\href{https://github.com/yourusername/spam-email-detector}{\textbf{\large{\underline{Spam Email Detector}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{May 2025 -- July 2025}} {}
+
+{\small\textcolor{black}{\underline{Spring Boot, Python (Flask), ML, REST API, HTML/Bootstrap}}} \\[-12pt]
+
+\resumeItemListStart
+  \item Built spam detector with Flask ML API and Spring Boot frontend using REST, Bootstrap UI.
+  \item Achieved 95\%+ accuracy in real-time spam classification.
+\resumeItemListEnd
+
+
+\vspace{-12pt}  % CRUCIAL: no space between projects
+
+% --- Project 2 ---
+\resumeProjectHeading
+  {\href{https://github.com/yourusername/book-catalog-api}{\textbf{\large{\underline{Book Catalog REST API}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{July 2025}} {}
+
+{\small\textcolor{black}{\underline{Spring Boot, Java 24, JPA, Swagger, REST API, H2 DB, Postman}}} \\[-12pt]
+
+\resumeItemListStart
+  \item Built modular REST API with layered design, DTO-Entity mapping, and JPA-H2 database.
+  \item Integrated Swagger UI and tested endpoints via Postman.
+\resumeItemListEnd
+
+\vspace{-12pt}
+
+% --- Project 3 ---
+\resumeProjectHeading
+  {\href{https://github.com/yourusername/tripease-car-booking}{\textbf{\large{\underline{Tripease – Car Booking System}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{June 2025}} {}
+
+{\small\textcolor{black}{\underline{Spring Boot, MySQL, Docker, GitHub Actions, AWS EC2, REST API}}} \\[-6pt]
+
+\resumeItemListStart
+  \item Built backend REST API for car booking with MySQL, Swagger, and token-based security.
+  \item Dockerized and deployed on AWS EC2 using GitHub Actions CI/CD.
+\resumeItemListEnd
+
+
+\vspace{-2pt}  % Remove space before next \section
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+% ----------- TRAINING & INTERNSHIP -----------
+\section{TRAINING \& INTERNSHIP}
+\vspace{-0pt}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {J-Spiders Institute \href{https://example.com/jspiders-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{July 2024 -- Dec 2024}
+  {Java Full-Stack Development Training}{Noida, India}
+  \resumeItemListStart
+    \resumeItem{Completed 6-month intensive training covering Core Java, JDBC, Servlets, JSP, Spring Boot, HTML, CSS, JavaScript, and MySQL.}
+    
+  \resumeItemListEnd
+\vspace{-2pt}
+
+\resumeSubheading
+  {Tech Mahindra (via NATS \& NAPS) \href{https://example.com/techmahindra-internship-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{Jan 2025 -- May 10, 2025}
+  {Trainee Associate}{Noida, India}
+  \resumeItemListStart
+    \resumeItem{Completed internship under National Apprenticeship Training Scheme and National Apprenticeship Promotion Scheme.}
+  \resumeItemListEnd
+\vspace{-2pt}
+
+\resumeSubheading
+  {Outskill \href{https://example.com/ai-masterclass-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{May 2025}
+  {Generative AI Masterclass by Vaibhav Sisinty (25 Hours)}{Remote}
+  \resumeItemListStart
+    \resumeItem{Completed 25-hour hands-on AI training focused on Generative AI tools and real-world applications.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+
+
+
+
+
+
+
+
+
+ 
+ %-----------CERTIFICATIONS---------------
+
+\section{ACHIEVEMENTS \& CERTIFICATIONS}
+\vspace{-4pt}
+\resumeSubHeadingListStart
+\resumeItemListStart
+
+\resumeItem{
+  Earned \textbf{200 Days Continuous Coding Streak Badge on LeetCode}, demonstrating consistency in coding\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+}
+
+\resumeItem{
+  Achieved \textbf{Top 50 SQL Questions Solved Badge on LeetCode} for completing curated advanced SQL challenges\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+}
+\resumeItem{
+  Certified in \textbf{SQL (Basic, Intermediate, Advanced)} by HackerRank\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+}
+\resumeItem{
+  Awarded \textbf{Silver Medal by NPTEL in “Data Structures and Algorithms in Java”} — placed in the \textbf{top 5\% nationally}\href{https://example.com/nptel-java-dsa-certificate}{\raisebox{-0.1\height}{\faExternalLink}}.
+}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\vspace{-2pt}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {B.Tech in Electronics \& Communication Engineering}{2020 -- 2024}
+  {GEC Vaishali | CGPA: 7.64}{Vaishali, Bihar}
+
+\resumeSubheading
+  {Class 12th (BSEB)}{2019}
+  {Aggregate: 75.6\%}{Sitamarhi, Bihar}
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+\end{document}
+
