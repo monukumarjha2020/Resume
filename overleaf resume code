@@ -205,7 +205,7 @@
 
 % --- Project 1 ---
 \resumeProjectHeading
-  {\href{https://github.com/yourusername/spam-email-detector}{\textbf{\large{\underline{Spam Email Detector}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{May 2025 -- July 2025}} {}
+  {\href{https://github.com/monukumarjha2020/-Spam-Email-Detector-.git}{\textbf{\large{\underline{Spam Email Detector}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{May 2025 -- July 2025}} {}
 
 {\small\textcolor{black}{\underline{Spring Boot, Python (Flask), ML, REST API, HTML/Bootstrap}}} \\[-12pt]
 
@@ -219,7 +219,7 @@
 
 % --- Project 2 ---
 \resumeProjectHeading
-  {\href{https://github.com/yourusername/book-catalog-api}{\textbf{\large{\underline{Book Catalog REST API}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{July 2025}} {}
+  {\href{https://github.com/monukumarjha2020/-Book-Catalog-API---Spring-Boot-Project.git}{\textbf{\large{\underline{Book Catalog REST API}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{July 2025}} {}
 
 {\small\textcolor{black}{\underline{Spring Boot, Java 24, JPA, Swagger, REST API, H2 DB, Postman}}} \\[-12pt]
 
@@ -232,7 +232,7 @@
 
 % --- Project 3 ---
 \resumeProjectHeading
-  {\href{https://github.com/yourusername/tripease-car-booking}{\textbf{\large{\underline{Tripease – Car Booking System}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{June 2025}} {}
+  {\href{https://github.com/monukumarjha2020/Tripease-Car-Booking-System-API.git}{\textbf{\large{\underline{Tripease – Car Booking System}}} \raisebox{-0.1\height}{\faExternalLink}} \hfill \textnormal{June 2025}} {}
 
 {\small\textcolor{black}{\underline{Spring Boot, MySQL, Docker, GitHub Actions, AWS EC2, REST API}}} \\[-6pt]
 
@@ -256,7 +256,7 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-  {J-Spiders Institute \href{https://example.com/jspiders-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{July 2024 -- Dec 2024}
+  {J-Spiders Institute \href{}{\raisebox{-0.1\height}{\faExternalLink}}}{July 2024 -- Dec 2024}
   {Java Full-Stack Development Training}{Noida, India}
   \resumeItemListStart
     \resumeItem{Completed 6-month intensive training covering Core Java, JDBC, Servlets, JSP, Spring Boot, HTML, CSS, JavaScript, and MySQL.}
@@ -265,7 +265,7 @@
 \vspace{-2pt}
 
 \resumeSubheading
-  {Tech Mahindra (via NATS \& NAPS) \href{https://example.com/techmahindra-internship-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{Jan 2025 -- May 10, 2025}
+  {Tech Mahindra (via NATS \& NAPS) \href{https://github.com/monukumarjha2020/Tech-Mahindra/blob/main/_tmp_1096473_SL_2025-05-28_Service_Letter%20(1).pdf}{\raisebox{-0.1\height}{\faExternalLink}}}{Jan 2025 -- May 10, 2025}
   {Trainee Associate}{Noida, India}
   \resumeItemListStart
     \resumeItem{Completed internship under National Apprenticeship Training Scheme and National Apprenticeship Promotion Scheme.}
@@ -273,7 +273,7 @@
 \vspace{-2pt}
 
 \resumeSubheading
-  {Outskill \href{https://example.com/ai-masterclass-certificate}{\raisebox{-0.1\height}{\faExternalLink}}}{May 2025}
+  {Outskill \href{https://github.com/monukumarjha2020/Generative-AI-Masterclass-by-Vaibhav-Sisinty/blob/main/3ff37a34-ca4c-4734-a31b-acd42f4c29ba_cert.pdf}{\raisebox{-0.1\height}{\faExternalLink}}}{May 2025}
   {Generative AI Masterclass by Vaibhav Sisinty (25 Hours)}{Remote}
   \resumeItemListStart
     \resumeItem{Completed 25-hour hands-on AI training focused on Generative AI tools and real-world applications.}
@@ -299,17 +299,17 @@
 \resumeItemListStart
 
 \resumeItem{
-  Earned \textbf{200 Days Continuous Coding Streak Badge on LeetCode}, demonstrating consistency in coding\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+  Earned \textbf{200 Days Continuous Coding Streak Badge on LeetCode}, demonstrating consistency in coding\href{https://leetcode.com/medal/?showImg=0&id=7651136&isLevel=false}{\raisebox{-0.1\height}{\faExternalLink}}.
 }
 
 \resumeItem{
-  Achieved \textbf{Top 50 SQL Questions Solved Badge on LeetCode} for completing curated advanced SQL challenges\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+  Achieved \textbf{Top 50 SQL Questions Solved Badge on LeetCode} for completing curated advanced SQL challenges\href{https://leetcode.com/medal/?showImg=0&id=7651136&isLevel=false}{\raisebox{-0.1\height}{\faExternalLink}}.
 }
 \resumeItem{
-  Certified in \textbf{SQL (Basic, Intermediate, Advanced)} by HackerRank\href{https://example.com/hackerrank-sql-certificates}{\raisebox{-0.1\height}{\faExternalLink}}.
+  Certified in \textbf{SQL (Basic, Intermediate, Advanced)} by HackerRank\href{https://www.hackerrank.com/profile/monu270202}{\raisebox{-0.1\height}{\faExternalLink}}.
 }
 \resumeItem{
-  Awarded \textbf{Silver Medal by NPTEL in “Data Structures and Algorithms in Java”} — placed in the \textbf{top 5\% nationally}\href{https://example.com/nptel-java-dsa-certificate}{\raisebox{-0.1\height}{\faExternalLink}}.
+  Awarded \textbf{Silver Medal by NPTEL in “Data Structures and Algorithms in Java”} — placed in the \textbf{top 5\% nationally}\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS85S84430223520256608}{\raisebox{-0.1\height}{\faExternalLink}}.
 }
 
 \resumeItemListEnd
